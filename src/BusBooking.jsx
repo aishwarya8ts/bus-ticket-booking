@@ -1,7 +1,10 @@
 import React, { useState } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+// import { Card, CardContent } from "@/components/ui/card";
+// import { Button } from "@/components/ui/button";
+// import { Input } from "@/components/ui/input";
+import { Card, CardContent } from "@shadcn/ui/card";
+import { Button } from "@shadcn/ui/button";
+import { Input } from "@shadcn/ui/input";
 
 const BusBooking = () => {
   const [name, setName] = useState("");
